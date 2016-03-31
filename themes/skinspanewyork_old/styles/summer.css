@@ -1,0 +1,206 @@
+#summer-offer-image{
+	background: url('../images/summer-home.jpg');
+}
+
+#summer-nol-offer-image{
+	background: url('../images/summer-home-nol.jpg');
+}
+
+#summer-nos-offer-image{
+	background: url('../images/summer-home-nos.jpg');
+}
+#summer-nom-offer-image{
+	background: url('../images/summer-home-nom.jpg');
+}
+
+.shop-sales-wrapper{
+	background: url('../images/ss.png');
+	background-repeat: no-repeat;
+	background-position-x: 2%;
+	padding-bottom: 10px;
+}
+
+.shop-sale-block{
+	vertical-align: top;
+	text-align: left;
+	background: #4D4E53;
+	background: url('../images/lp-bg.png');
+	padding: 10px 0 0 10px;
+	margin-bottom: 3px;
+	min-height: 165px;
+}
+
+.shop-sale-button{
+	background: #B4985A;
+	border: 1px solid #B4985A;
+	display: block;
+	width: 117px;
+	height: 12px;
+	padding: 7px 0;
+	margin: 0 auto;
+	box-shadow: 1px 1px 1px #444;
+	font-family:'Perpetua MT W01 Italic';
+	font-size: 16px;
+	font-weight: lighter;
+	text-align: center;
+}
+
+.shop-sale-button:hover{
+	background: #e4e4e4;
+	border: 1px solid #423739;
+	color: #423739;
+	font-weight: bolder;
+}
+
+.shop-sales-wrapper h1{
+	text-align: center;
+	padding: 32px 0 26px;
+	margin-bottom: 0;
+	margin-top: 0;
+	font-size: 45px;
+	font-family:'Bodoni MT W01 Book';
+	font-weight: lighter;
+}
+
+.shop-sales-wrapper h2{
+	font-size: 42px;
+	font-family:'Bodoni MT W01 Book';
+	font-weight: lighter;
+	margin: 24px 0 20px;
+}
+
+.shop-sales-wrapper h3{
+	color: white;
+	font-family:'BodoniMTW01-BookItalic';
+	font-style: italic;
+	font-size: 33px;
+	margin: 0 0 30px;
+}
+
+.shop-sales-wrapper h4.service-title{
+	font-size: 12px;
+	border-top:1px solid #777;
+	padding-top: 0px;
+	margin-top: 3px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.shop-sales-wrapper h4.service-title:first-of-type{
+	border-top: 0 none;
+}
+
+.shop-sales-wrapper p{
+	font-size: 12px;
+	line-height: 18px;
+	font-family: 'Quicksand', sans-serif;
+	margin:5px 0;
+}
+.service.triple h4.service-title{
+	font-size: 11px;
+}
+.service.triple p{
+	font-size: 11px;
+}
+
+p.terms{
+	margin-top: -35px;
+	margin-right: 10px;
+	float: right;
+	text-align: right;
+	font-size: 11px;
+	font-family:'UniversLTW01-59UltraCn';
+	font-weight: lighter;
+	letter-spacing: 1px;
+}
+
+.shop-sales-wrapper h1, .shop-sales-wrapper h2{
+	color: #B49859;
+}
+.shop-sale-title, .service{
+	display: inline-block;
+	width: 20%;
+	margin: 0 0 0 0;
+	vertical-align: top;
+}
+.service.triple{
+	width: 13%;
+	
+}
+.shop-sale-title{
+	width: 40%;
+	margin: 0 3% 0 1%;
+	border-right: 1px solid white;
+}
+.shop-sale-title h4{
+	text-align: center;
+	font-size: 17px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	margin-bottom: 11px;
+}
+.or{
+	display: inline-block;
+	color: #B49859;
+	font-size: 38px;
+	margin-top:45px;
+	margin-right: 4%;
+	font-weight: bold;
+	font-family:'BodoniMTW01-BookItalic';
+	font-style: italic;
+}
+.or.triple{
+	margin-right: 1%;
+}
+
+@media only screen and (max-width: 959px) {
+	.shop-sales-wrapper h2{
+		font-size: 33px;
+	}
+	.shop-sales-wrapper h3{
+		font-size: 30px;
+	}
+	.or{
+		font-size: 30px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.shop-sales-wrapper h1{
+		font-size: 20px;
+	}
+
+	.shop-sale-title{
+		display:block;
+		width: 100%;
+		padding-bottom: 20px;
+		margin-bottom: 15px;
+		border-bottom: 1px solid white;
+		border-right: 0px solid none;
+	}
+	.shop-sale-title h4{
+		display: none;
+	}
+	.shop-sale-block{
+		text-align: center;
+	}
+	.or{
+		margin-top: 40px;
+		font-size: 20px;
+	}
+	.service{
+		width: 35%;
+	}
+	.service.triple{
+		width: 20%;
+	}
+	.or.triple{
+		font-size: 14px;
+	}
+	p.terms{
+		margin: 0;
+	}
+
+}

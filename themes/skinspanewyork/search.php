@@ -1,0 +1,43 @@
+<?php
+/**
+ * The template for displaying Search Results pages
+ *
+ * @package WordPress
+ * @subpackage Templatemela
+ * @since Templatemela 1.0
+ */
+
+get_header(); ?>
+<div class="content-main">
+	<!--- Start Templatemela Laypout Settings --->	
+	<?php if (get_option('tmoption_layout')=='3' || get_option('tmoption_layout')=='4' || get_option('tmoption_layout')=='5' ) { ?>	
+		<?php get_sidebar('secondary'); ?>
+	<?php } ?>
+	<!--- End Templatemela Laypout Settings --->
+  <div class="content-wrapper">
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+
+		<?php if ( have_posts() ) : ?>
+
+			<header class="page-header">
+				<h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'templatemela' ), get_search_query() ); ?></h1>
+			</header>
+
+			<?php /* The loop */ ?>
+			<?php while ( have_posts() ) : the_post(); ?>
+				<?php get_template_part( 'content', get_post_format() ); ?>
+			<?php endwhile; ?>
+
+			<?php templatemela_paging_nav(); ?>
+
+		<?php else : ?>
+			<?php get_template_part( 'content', 'none' ); ?>
+		<?php endif; ?>
+
+		</div><!-- #content -->
+	</div><!-- #primary -->
+  </div>
+	<?php templatemela_content_after(); ?>
+</div>
+<?php get_footer(); ?>

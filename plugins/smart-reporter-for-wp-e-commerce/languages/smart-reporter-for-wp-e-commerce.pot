@@ -1,0 +1,648 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Reporter for e-commerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Fri Oct 16 2015 13:11:22 GMT+0530 (IST)\n"
+"POT-Revision-Date: Tue Dec 08 2015 15:17:34 GMT+0530 (IST)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+msgid "Smart Reporter for e-commerce"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://www.storeapps.org/product/smart-reporter"
+msgstr ""
+
+#. Description of the plugin
+msgid "<strong>Pro Version Installed.</strong> Store analysis like never before."
+msgstr ""
+
+#. Author of the plugin
+msgid "Store Apps"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.storeapps.org/about"
+msgstr ""
+
+#: ../smart-reporter.php:995
+msgctxt "timezone date format"
+msgid "Y-m-d H:i:s"
+msgstr ""
+
+#: ../smart-reporter.php:1009
+msgid "Big Savings!!!"
+msgstr ""
+
+#: ../smart-reporter.php:1009
+msgid "20% OFF "
+msgstr ""
+
+#: ../smart-reporter.php:1009 ../smart-reporter.php:1013
+msgid "on Smart Reporter Pro!"
+msgstr ""
+
+#: ../smart-reporter.php:1011
+msgid "Missed yesterday!!!"
+msgstr ""
+
+#: ../smart-reporter.php:1011
+msgid "15% OFF "
+msgstr ""
+
+#: ../smart-reporter.php:1011
+msgid "on Smart Reporter Pro"
+msgstr ""
+
+#: ../smart-reporter.php:1011
+msgid "only for you!"
+msgstr ""
+
+#: ../smart-reporter.php:1013
+msgid "Last chance!!!"
+msgstr ""
+
+#: ../smart-reporter.php:1013
+msgid "10% OFF "
+msgstr ""
+
+#: ../smart-reporter.php:1020 ../smart-reporter.php:1523
+msgid "Learn more about Pro version"
+msgstr ""
+
+#: ../smart-reporter.php:1020 ../smart-reporter.php:1523
+msgid "or take a"
+msgstr ""
+
+#: ../smart-reporter.php:1020 ../smart-reporter.php:1523
+msgid "Live Demo"
+msgstr ""
+
+#: ../smart-reporter.php:1032
+msgid "No, I don't like offers..."
+msgstr ""
+
+#: ../smart-reporter.php:1045
+msgid ""
+"<b>Smart Reporter</b> add-on requires <a href=\"http://www.storeapps."
+"org/wpec/\">WP e-Commerce</a> plugin or <a href=\"http://www.storeapps."
+"org/woocommerce/\">WooCommerce</a> plugin. Please install and activate it."
+msgstr ""
+
+#: ../smart-reporter.php:1147 ../smart-reporter.php:1542 ../smart-reporter.php:
+#: 1668 ../smart-reporter.php:1684 ../smart-reporter.php:1702 ../smart-reporter.
+#: php:1706
+msgid "Smart Reporter"
+msgstr ""
+
+#: ../smart-reporter.php:1147 ../smart-reporter.php:1545
+msgid "Pro"
+msgstr ""
+
+#: ../smart-reporter.php:1147 ../smart-reporter.php:1547
+msgid "Lite"
+msgstr ""
+
+#: ../smart-reporter.php:1523
+msgid "Important:"
+msgstr ""
+
+#: ../smart-reporter.php:1523
+msgid "To get the sales and sales KPI's for more than 30 days upgrade to Pro"
+msgstr ""
+
+#: ../smart-reporter.php:1572 ../smart-reporter.php:1572
+msgid "Switch back to new view"
+msgstr ""
+
+#: ../smart-reporter.php:1574 ../smart-reporter.php:1574
+msgid "Switch to old view"
+msgstr ""
+
+#: ../smart-reporter.php:1612
+#, php-format
+msgid "%1s%2s%3s"
+msgstr ""
+
+#: ../smart-reporter.php:1617
+msgid "Store analysis like never before."
+msgstr ""
+
+#: ../smart-reporter.php:1648 ../smart-reporter.php:1663 ../smart-reporter.php:
+#: 1678 ../smart-reporter.php:1698
+msgid "A required Smart Reporter file is missing. Can't continue."
+msgstr ""
+
+#: ../smart-reporter.php:1651 ../smart-reporter.php:1681
+msgid "Smart Reporter currently works only with WP e-Commerce 3.7 or above."
+msgstr ""
+
+#: ../smart-reporter.php:1657 ../smart-reporter.php:1692
+msgid "Smart Reporter currently works only with WooCommerce 1.4 or above."
+msgstr ""
+
+#: ../smart-reporter.php:1668 ../smart-reporter.php:1706
+msgid "add-on requires"
+msgstr ""
+
+#: ../smart-reporter.php:1668 ../smart-reporter.php:1706
+msgid "WP e-Commerce"
+msgstr ""
+
+#: ../smart-reporter.php:1668 ../smart-reporter.php:1706
+msgid "plugin or"
+msgstr ""
+
+#: ../smart-reporter.php:1668 ../smart-reporter.php:1706
+msgid "WooCommerce"
+msgstr ""
+
+#: ../smart-reporter.php:1668 ../smart-reporter.php:1706
+msgid "plugin. Please install and activate it."
+msgstr ""
+
+#: ../smart-reporter.php:1684
+msgid "WP e-Commerce plugin is not activated."
+msgstr ""
+
+#: ../smart-reporter.php:1684
+msgid "add-on requires WP e-Commerce plugin, please activate it."
+msgstr ""
+
+#: ../smart-reporter.php:1702
+msgid "WooCommerce plugin is not activated."
+msgstr ""
+
+#: ../smart-reporter.php:1702
+msgid "add-on requires WooCommerce plugin, please activate it."
+msgstr ""
+
+#: ../smart-reporter.php:1742
+msgid "Sales Summary"
+msgstr ""
+
+#: ../sr/json-woo.php:1404 ../sr/json-woo.php:1407
+msgid "NA"
+msgstr ""
+
+#: ../sr/reporter-console.php:323
+msgid ""
+"<strong>Smart Reporter Data Sync Required</strong> &#8211; We just need to "
+"sync your orders for faster reporting"
+msgstr ""
+
+#: ../sr/reporter-console.php:324
+msgid "Sync Now"
+msgstr ""
+
+#: ../sr/reporter-console.php:533
+msgid "Today"
+msgstr ""
+
+#: ../sr/reporter-console.php:534
+msgid "Yesterday"
+msgstr ""
+
+#: ../sr/reporter-console.php:535
+msgid "Current Week"
+msgstr ""
+
+#: ../sr/reporter-console.php:536
+msgid "Last Week"
+msgstr ""
+
+#: ../sr/reporter-console.php:537
+msgid "Current Month"
+msgstr ""
+
+#: ../sr/reporter-console.php:538
+msgid "Last Month"
+msgstr ""
+
+#: ../sr/reporter-console.php:539
+msgid "3 Months"
+msgstr ""
+
+#: ../sr/reporter-console.php:540
+msgid "6 Months"
+msgstr ""
+
+#: ../sr/reporter-console.php:541
+msgid "Current Year"
+msgstr ""
+
+#: ../sr/reporter-console.php:542
+msgid "Last Year"
+msgstr ""
+
+#: ../sr/reporter-console.php:543
+msgid "Custom Date"
+msgstr ""
+
+#: ../sr/reporter-console.php:894 ../sr/reporter-console.php:972 ../sr/reporter-
+#: console.php:983 ../sr/reporter-console.php:994 ../sr/reporter-console.php:1234 
+#: ../sr/reporter-console.php:1651 ../sr/reporter-console.php:1739 ../sr/reporter-
+#: console.php:1809 ../sr/reporter-console.php:2035 ../sr/reporter-console.php:
+#: 2359 ../sr/reporter-console.php:2541 ../sr/reporter-console.php:2639 ..
+#: /sr/reporter-console.php:2767 ../sr/reporter-console.php:2808 ../sr/reporter-
+#: console.php:2913 ../sr/reporter-console.php:3007 ../sr/reporter-console.php:
+#: 3108 ../sr/reporter-console.php:3143 ../sr/reporter-console.php:3249 ..
+#: /sr/reporter-console.php:3472 ../sr/reporter-console.php:3567 ../sr/reporter-
+#: console.php:3663 ../sr/reporter-console.php:3790 ../pro/sr-summary-mails.php:
+#: 302 ../pro/sr-summary-mails.php:324 ../pro/sr-summary-mails.php:345
+msgid "No Data"
+msgstr ""
+
+#: ../sr/reporter-console.php:1225 ../pro/sr-summary-mails.php:186
+msgid "Sales"
+msgstr ""
+
+#: ../sr/reporter-console.php:1700 ../sr/reporter-console.php:2484 ../sr/reporter-
+#: console.php:2540
+msgid "Sales Funnel"
+msgstr ""
+
+#: ../sr/reporter-console.php:2186 ../pro/sr-summary-mails.php:330
+msgid "Top Products"
+msgstr ""
+
+#: ../sr/reporter-console.php:2194 ../pro/sr-summary-mails.php:429
+msgid "Price"
+msgstr ""
+
+#: ../sr/reporter-console.php:2196
+msgid "Qty"
+msgstr ""
+
+#: ../sr/reporter-console.php:2228
+msgid "Recent Orders"
+msgstr ""
+
+#: ../sr/reporter-console.php:2259
+msgid "Sorry! Expand Detailed View functionality is available only in Pro version"
+msgstr ""
+
+#: ../sr/reporter-console.php:2276
+msgid "The content could not be loaded."
+msgstr ""
+
+#: ../sr/reporter-console.php:2365
+msgid "Comming Soon"
+msgstr ""
+
+#: ../sr/reporter-console.php:2411
+msgid " per Day Sales"
+msgstr ""
+
+#: ../sr/reporter-console.php:2412
+msgid "1 Sale Every"
+msgstr ""
+
+#: ../sr/reporter-console.php:2413 ../pro/sr-summary-mails.php:272
+msgid "Orders Placed"
+msgstr ""
+
+#: ../sr/reporter-console.php:2414 ../pro/sr-summary-mails.php:276
+msgid "Abandonment Rate"
+msgstr ""
+
+#: ../sr/reporter-console.php:2415
+msgid "Refund Rate "
+msgstr ""
+
+#: ../sr/reporter-console.php:2568 ../sr/reporter-console.php:2638
+msgid "Sales Trend"
+msgstr ""
+
+#: ../sr/reporter-console.php:2706 ../sr/reporter-console.php:2766
+msgid "Sales Distribution"
+msgstr ""
+
+#: ../sr/reporter-console.php:2836
+msgid "Avg Order Total"
+msgstr ""
+
+#: ../sr/reporter-console.php:2844
+msgid "Avg Items Per Customer"
+msgstr ""
+
+#: ../sr/reporter-console.php:2858
+msgid "Top Customers"
+msgstr ""
+
+#: ../sr/reporter-console.php:2938
+msgid "Cart Abandonment Rate"
+msgstr ""
+
+#: ../sr/reporter-console.php:2951
+msgid "Sales with Coupons"
+msgstr ""
+
+#: ../sr/reporter-console.php:2964 ../pro/sr-summary-mails.php:308
+msgid "Top Coupons"
+msgstr ""
+
+#: ../sr/reporter-console.php:3036 ../pro/sr-summary-mails.php:243
+msgid "Abandoned Products"
+msgstr ""
+
+#: ../sr/reporter-console.php:3134 ../pro/sr-summary-mails.php:190
+msgid "Discounts"
+msgstr ""
+
+#: ../sr/reporter-console.php:3271
+msgid "Taxes & Shipping"
+msgstr ""
+
+#: ../sr/reporter-console.php:3415 ../pro/sr-summary-mails.php:284
+msgid "Payment Gateways"
+msgstr ""
+
+#: ../sr/reporter-console.php:3590
+msgid "Billing Countries"
+msgstr ""
+
+#: ../sr/reporter-console.php:3686
+msgid "Shipping Methods"
+msgstr ""
+
+#: ../sr/reporter-console.php:3957
+msgid " For more Extensive Reporting use "
+msgstr ""
+
+#: ../sr/reporter-console.php:3957
+msgid "Putler"
+msgstr ""
+
+#: ../sr/reporter-console.php:3971
+#, php-format
+msgid ""
+"If you like <strong>Smart Reporter</strong> please leave us a %s&#9733;"
+"&#9733;&#9733;&#9733;&#9733;%s rating. A huge thank you from StoreApps in "
+"advance!"
+msgstr ""
+
+#: ../sr/reporter-console.php:3971
+msgid "Thanks :)"
+msgstr ""
+
+#: ../pro/upgrade.php:239
+msgid "License Key"
+msgstr ""
+
+#: ../pro/upgrade.php:242
+msgid "Validate"
+msgstr ""
+
+#: ../pro/upgrade.php:269
+#, php-format
+msgid "Your license for %s %s. Please %s to continue receiving updates & support"
+msgstr ""
+
+#: ../pro/upgrade.php:269
+msgid "has expired"
+msgstr ""
+
+#: ../pro/upgrade.php:269 ../pro/upgrade.php:271
+msgid "renew your license now"
+msgstr ""
+
+#: ../pro/upgrade.php:271
+#, php-format
+msgid ""
+"Your license for %s %swill expire in %d %s%s. Please %s to get %sdiscount "
+"upto 50%%%s"
+msgstr ""
+
+#: ../pro/upgrade.php:271
+msgid "day"
+msgid_plural "days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../pro/upgrade.php:382
+msgid "Submit your query"
+msgstr ""
+
+#: ../pro/upgrade.php:382
+msgid "Support"
+msgstr ""
+
+#: ../pro/upgrade.php:387
+msgid "Reset License Details"
+msgstr ""
+
+#: ../pro/upgrade.php:387
+msgid "Reset License"
+msgstr ""
+
+#: ../pro/upgrade.php:641 ../pro/sr-summary-mails.php:426
+msgid "Name"
+msgstr ""
+
+#: ../pro/upgrade.php:645
+msgid "E-mail"
+msgstr ""
+
+#: ../pro/upgrade.php:649
+msgid "Subject"
+msgstr ""
+
+#: ../pro/upgrade.php:653
+msgid "Message"
+msgstr ""
+
+#: ../pro/upgrade.php:737
+msgid "Invalid value"
+msgstr ""
+
+#: ../pro/upgrade.php:797
+msgid "Enable Auto Refresh"
+msgstr ""
+
+#: ../pro/upgrade.php:799
+msgid "Select"
+msgstr ""
+
+#: ../pro/upgrade.php:800
+msgid "KPI"
+msgstr ""
+
+#: ../pro/upgrade.php:801
+msgid "Dashboard"
+msgstr ""
+
+#: ../pro/upgrade.php:802
+msgid "All"
+msgstr ""
+
+#: ../pro/upgrade.php:804
+msgid "Auto Refresh Every"
+msgstr ""
+
+#: ../pro/upgrade.php:804
+msgid "minutes"
+msgstr ""
+
+#: ../pro/upgrade.php:811
+msgid "Enable Daily Summary Mails"
+msgstr ""
+
+#: ../pro/upgrade.php:813
+msgid "Daily"
+msgstr ""
+
+#: ../pro/upgrade.php:814
+msgid "Weekly"
+msgstr ""
+
+#: ../pro/upgrade.php:815
+msgid "Monthly"
+msgstr ""
+
+#: ../pro/upgrade.php:819
+msgid "Week starts from "
+msgstr ""
+
+#: ../pro/upgrade.php:821
+msgid "Sunday"
+msgstr ""
+
+#: ../pro/upgrade.php:822
+msgid "Monday"
+msgstr ""
+
+#: ../pro/upgrade.php:823
+msgid "Tueday"
+msgstr ""
+
+#: ../pro/upgrade.php:824
+msgid "Wednesday"
+msgstr ""
+
+#: ../pro/upgrade.php:825
+msgid "Thursday"
+msgstr ""
+
+#: ../pro/upgrade.php:826
+msgid "Friday"
+msgstr ""
+
+#: ../pro/upgrade.php:827
+msgid "Saturday"
+msgstr ""
+
+#: ../pro/upgrade.php:832
+msgid "Month starts from "
+msgstr ""
+
+#: ../pro/upgrade.php:842
+msgid "Email:"
+msgstr ""
+
+#: ../pro/upgrade.php:849
+msgid "Save Settings"
+msgstr ""
+
+#: ../pro/upgrade.php:851
+msgid "Smart Reporter Settings <b>Updated</b>"
+msgstr ""
+
+#: ../pro/sr-summary-mails.php:161
+msgid "Monthly Summary"
+msgstr ""
+
+#: ../pro/sr-summary-mails.php:163
+msgid "Weekly Summary"
+msgstr ""
+
+#: ../pro/sr-summary-mails.php:165
+msgid "Daily Summary"
+msgstr ""
+
+#: ../pro/sr-summary-mails.php:179
+msgid "Month To Date Sales"
+msgstr ""
+
+#: ../pro/sr-summary-mails.php:194
+msgid "Tax"
+msgstr ""
+
+#: ../pro/sr-summary-mails.php:198
+msgid "Shipping"
+msgstr ""
+
+#: ../pro/sr-summary-mails.php:202
+msgid "Refunds"
+msgstr ""
+
+#: ../pro/sr-summary-mails.php:206
+msgid "Net Sales"
+msgstr ""
+
+#: ../pro/sr-summary-mails.php:215
+msgid "Forecasted Sales"
+msgstr ""
+
+#: ../pro/sr-summary-mails.php:224
+msgid "New Customers"
+msgstr ""
+
+#: ../pro/sr-summary-mails.php:228
+msgid "Avg. Order Total"
+msgstr ""
+
+#: ../pro/sr-summary-mails.php:232
+msgid "Avg. Items Per Customer"
+msgstr ""
+
+#: ../pro/sr-summary-mails.php:236
+msgid "Unfullfilled Orders"
+msgstr ""
+
+#: ../pro/sr-summary-mails.php:265
+msgid "Abandonment Statistics"
+msgstr ""
+
+#: ../pro/sr-summary-mails.php:268 ../pro/sr-summary-mails.php:427
+msgid "Add To Cart"
+msgstr ""
+
+#: ../pro/sr-summary-mails.php:358
+msgid "Monthly Summary Report for"
+msgstr ""
+
+#: ../pro/sr-summary-mails.php:360
+msgid "Weekly Summary Report for"
+msgstr ""
+
+#: ../pro/sr-summary-mails.php:362
+msgid "Daily Summary Report for"
+msgstr ""
+
+#: ../pro/sr-summary-mails.php:428
+msgid "Abandoment Rate"
+msgstr ""
+
+#: ../pro/sr-summary-mails.php:430
+msgid "Last Order Date"
+msgstr ""

@@ -1,0 +1,139 @@
+#its-all-about-you-offer-image{
+	background: url('../images/its-all-about-you-general-home.jpg');
+}
+
+.shop-sales-wrapper{
+	background: white;
+	padding-bottom: 10px;
+}
+
+.shop-sale-block{
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	width: 24%;
+
+}
+
+.shop-sale-block:first-of-type{
+	margin-left: 1%;
+}
+
+.services{
+	background: #eee;
+	background: url('../images/its-all-about-you-bg.jpg');
+	padding: 3%;
+	text-align: center;
+	min-height: 460px;
+	position: relative;
+}
+
+.anti-aging .services{
+	min-height: 560px;
+}
+
+.shop-sale-button{
+	background: #423739;
+	display: block;
+	width: 117px;
+	height: 13px;
+	padding: 8px 0;
+	margin: 0 auto;
+	box-shadow: 1px 1px 1px #444;
+	position: absolute;
+	bottom:120px;
+	left:25%;
+	font-family:'Perpetua MT W01 Italic';
+	font-size: 18px;
+	font-weight: lighter;
+}
+
+.anti-aging .shop-sale-button{
+	bottom:220px;
+}
+
+.shop-sale-button:hover{
+	background: #e4e4e4;
+	border: 1px solid #423739;
+	color: #423739;
+	font-weight: bolder;
+}
+
+.shop-sales-wrapper h1{
+	text-align: center;
+	padding: 60px 0 20px;
+	margin-top:0;
+	font-size: 55px;
+	font-family:'Baskerville MT W01 It';
+	font-weight: lighter;
+}
+
+.shop-sales-wrapper h2{
+	font-size: 26px;
+	font-family: "Times New Roman";
+	font-style: italic;
+	font-weight: lighter;
+}
+
+.shop-sales-wrapper h3{
+	color: #C33238;
+	font-family:'UniversLTW01-67BoldCn';
+	font-size:16px;
+}
+
+.shop-sales-wrapper h4.service-title{
+	font-size: 12px;
+	border-top:1px solid #777;
+	padding-top: 10px;
+	font-family:'Univers LT W01 65 Bold';
+	letter-spacing: 1px;
+}
+
+.shop-sales-wrapper h4.service-title:first-of-type{
+	border-top: 0 none;
+}
+
+.shop-sales-wrapper p{
+	font-size: 14px;
+	line-height: 20px;
+	font-family:'Univers LT W01 45 Light';
+}
+
+p.terms{
+	position: absolute;
+	bottom: 0;
+	text-align: left;
+	font-size: 11px;
+	font-family:'UniversLTW01-47LightCn';
+}
+
+.shop-sales-wrapper h1, .shop-sales-wrapper h2, .shop-sales-wrapper h4, .shop-sales-wrapper p{
+	color: black;
+}
+@media only screen and (max-width: 959px) {
+	.shop-sale-block{
+		width: 48%;
+	}
+	.shop-sale-button{
+		position: relative;
+		bottom: 0;
+		left: 0;
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+	.services{
+		min-height: 400px;
+	}
+	.shop-sales-wrapper h1{
+		font-size: 30px;
+	}
+
+	.shop-sale-block{
+		width: 100%;
+	}
+
+
+
+}

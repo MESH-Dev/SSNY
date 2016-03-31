@@ -1,0 +1,39 @@
+#altum-gift-certificates h2{
+	font-size: 20px;
+}
+
+#altum-gift-certificates table{
+	width: 80%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#altum-gift-certificates table
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	margin: 45px;
+	width: 90%;
+	text-align: left;
+	border-collapse: collapse;
+}
+#altum-gift-certificates th
+{
+	font-size: 14px;
+	font-weight: normal;
+	padding: 10px 8px;
+	color: #039;
+}
+#altum-gift-certificates td
+{
+	padding: 8px;
+	color: #669;
+}
+#altum-gift-certificates tr:nth-child(2n)
+{
+	background: #e8edff; 
+}
+#altum-gift-certificates thead tr
+{
+	background: #d8ddef;
+}

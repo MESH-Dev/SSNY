@@ -1,0 +1,75 @@
+.logo{
+  height: 290px;  
+}
+
+.rating{
+  text-align: center;
+}
+
+.cancel-on-png, .cancel-off-png, .star-off-png, .star-half-png {
+  font-size: 2.3em!important;
+  color: #555;
+}
+.star-on-png{
+  font-size: 2.3em!important;
+  color: #e7df3b;
+}
+
+select {
+	width: 406px;
+	height: 31px;
+	background-size: 20px 13px;
+  background-color: #ededed;
+  margin: 0px 10px 4px;
+	border: 1px solid #BFBFBF;			
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;	
+  box-shadow:inset 0 0 6px #bfbfbf;
+  -moz-box-shadow:inset 0 0 6px #bfbfbf;
+  -webkit-box-shadow:inset 0 0 6px #bfbfbf;
+    
+  color: #444;
+  font-size: 17px;
+  padding: 1px 10px;
+
+}
+
+textarea {
+	width: 384px;
+	height: 101px;
+	background-size: 20px 13px;
+  background-color: #ededed;
+  margin: 0 10px;
+	border: 1px solid #BFBFBF;			
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;	
+  box-shadow:inset 0 0 6px #bfbfbf;
+  -moz-box-shadow:inset 0 0 6px #bfbfbf;
+  -webkit-box-shadow:inset 0 0 6px #bfbfbf;
+    
+  color: #444;
+  font-size: 17px;
+  font-family: 'Open Sans', serif;
+  padding: 10px;
+ }
+
+#feedbackForm p{
+  padding: 0 20px;
+}
+
+#box-wrap{
+  min-height: 230px;
+}
+
+#yelp-button{
+  margin: 0 auto;
+  width: 180px;
+  display: block;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.clear{
+  clear: both;
+}

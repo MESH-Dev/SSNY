@@ -1,0 +1,31 @@
+/*=== Login/Registration Page ===*/
+#login{
+	padding: 60px 0 0;
+}
+.login h1 a{
+	background-image: url('../images/ss-full.png')!important;
+	background-size: 180px 120px;
+	height: 130px;
+}
+
+body.login{
+	background: #000;
+}
+
+.login #nav, .login #backtoblog{
+	text-shadow: none;
+}
+
+.login #nav a, .login #backtoblog a{
+	color: #b8a374!important;
+	text-decoration: none;
+}
+
+.login #nav a:hover, .login #backtoblog a:hover{
+	text-decoration: underline;
+}
+
+#wp-admin-bar-wp-logo>.ab-item .ab-icon{
+	background-image: url('../images/ss.png')!important;
+	background-size: 20px 20px;
+}
